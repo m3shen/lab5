@@ -45,7 +45,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testSpaceBeforeParen() {
-        String contents = null;
+        String contents = "";
         List<String> expect = List.of();
         assertEquals(MarkdownParse.getLinks(contents), expect);
     }
