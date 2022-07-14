@@ -81,7 +81,7 @@ public class MarkdownParse {
             else {
                 currentIndex = currentIndex + 1;
             }
-            System.out.println(currentIndex);
+            //System.out.println(currentIndex);
         }
         return toReturn;
     }
@@ -91,7 +91,7 @@ public class MarkdownParse {
         Path fileName = Path.of(args[0]);
         String contents = Files.readString(fileName);
         ArrayList<String> links = getLinks(contents);
-        System.out.println(links);   
+        //System.out.println(links);   
         
     }
 }
